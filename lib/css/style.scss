@@ -10,7 +10,7 @@ $bg-color:#333;
 
 }
 
-::selection{
+::selection {
   color:$gray;
 
 }
@@ -28,7 +28,7 @@ body {
   .logo {
     padding: 1rem 0 0 0;
 
-  .logo-img{
+  .logo-img {
     max-width: 100%;
     height: 100px;
     padding-bottom: .75rem;
@@ -68,7 +68,6 @@ body {
 }
 
 .intro-desc {
-  // margin: 20% auto 0;
   font-size: 3.3vw;
   color: $blue-color;
   text-transform: uppercase;
@@ -83,10 +82,10 @@ body {
   background: rgba(0,0,0,0.7);
   width: 100%;
   text-align: center;
+
 }
 
 .intro-bg {
-  // position: absolute;
   width: 100vw;
   max-width: 100%;
   z-index: -1;
@@ -95,7 +94,6 @@ body {
   top: 0;
   height: 70vh;
   
-
 }
 
 .featured-work {
@@ -103,10 +101,11 @@ body {
   justify-content: space-between;
 
 }
-.project-img{
+.project-img {
   max-width: 100%;
   border: 1px solid $gray;
   padding: 0.5rem;
+
 }
 
 .fwork-title {
@@ -118,6 +117,7 @@ body {
   color: $blue-color;
 
 }
+
 .project {
   padding-bottom: 0.5rem;
 
@@ -139,7 +139,7 @@ body {
   
 }
 
-.project-description a:hover{
+.project-description a:hover {
   text-decoration: none;
   color: $blue-color;
 
@@ -161,7 +161,7 @@ body {
    text-decoration: underline;
    
   }
-  span a:hover{
+  span a:hover {
     text-decoration: none;
     color: $blue-color;
   }
@@ -170,7 +170,7 @@ body {
 
 }
 
-@media screen and (min-width:550px){
+@media screen and (min-width:550px) {
   
   .header {
     display: flex;
@@ -189,6 +189,7 @@ body {
        font-size: 4.2vw;
      }
   }
+
   }
   .featured-work {
     display: flex;
@@ -199,14 +200,11 @@ body {
       .project-img{
         height: 30vmax;
         width: 100vmax;
+
       }
     }
   }
-
-
-  
-  
-  
+ 
 }
 @media screen and (min-width:850px) {
   body {
@@ -235,19 +233,21 @@ body {
        font-size: 1.2vw;
        
       }
-     
   }
 }
-  .fwork-title{
+  .fwork-title {
     font-size: 1.2vw;
     padding: 1rem 0;
+
   }
+
   .featured-work {
     padding: 0;
 
     .project {
       width: 30%; 
       justify-content: space-between;
+      
       .project-img {
         height: 15vmax;
         width: 100vmax;
