@@ -1,0 +1,1 @@
+Use npm install to can run the app correctly :)
