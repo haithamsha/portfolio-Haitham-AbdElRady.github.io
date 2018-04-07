@@ -21,7 +21,6 @@ body {
 }
 
 .header {
-  display: flex;
   border-bottom: 2px solid $gray;
   padding-bottom: 1rem;
   padding: 0 0 0 1rem;
@@ -43,7 +42,7 @@ body {
     font-weight: 400;
     text-transform: uppercase;
     padding-right: 0;
-    font-size: 5.2vh;
+    font-size: 5vh;
 
   }
 
